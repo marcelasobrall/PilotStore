@@ -1,0 +1,35 @@
+﻿@page
+@model PilotStore_.Pages.DetailsModel
+@{
+}
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6">
+            <h2>@Model.Product.Name</h2>
+        </div>
+    </div>
+
+    <div class="row mt-3">
+        <div class="col-md-4">
+            <img class="img-fluid rounded" src="@Model.Product.ImagePath" alt="@Model.Product.Name">
+        </div>
+
+        <div class="col-md-8">
+            <h4 class="my-3">Sobre:</h4>
+            <p>@Model.Product.Description</p>
+
+            <h4 class="my-3">Mais Informações:</h4>
+            <dl class="row">
+                <dt class="col-sm-3">Preço:</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Product.Price)</dd>
+
+                <dt class="col-sm-3">Data de Lançamento:</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Product.ReleaseDate)</dd>
+               
+            </dl>
+
+            <a class="btn btn-primary mt-3" asp-page="Edit" asp-route-id="@Model.Product.Id">Editar</a>
+        </div>
+    </div>
+</div>
