@@ -20,6 +20,7 @@ public class ProductService : IProductService
         productFound.Price = product.Price;
         productFound.ReleaseDate = product.ReleaseDate;
         productFound.ImagePath = product.ImagePath;
+        productFound.MarcaId = product.MarcaId;
 
         _context.SaveChanges();
      }
@@ -51,4 +52,9 @@ public class ProductService : IProductService
     {
         return _context.Products.ToList();
     }
+    public Marca ObterMarca(int marcaId)
+    {
+        return _context.Marca.SingleOrDefault(m => m.MarcaId == marcaId);
+    }
+
 }

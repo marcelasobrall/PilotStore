@@ -27,6 +27,12 @@
                 <dt class="col-sm-3">Data de Lançamento:</dt>
                 <dd class="col-sm-9">@Html.DisplayFor(model => model.Product.ReleaseDate)</dd>
                
+                @if(Model.Marca is not null)
+                {
+                    <dt class="col-sm-3">Marca:</dt>
+                    <dd class="col-sm-9">@Model.Marca?.Descricao</dd>
+                }
+
             </dl>
 
             <a class="btn btn-primary mt-3" asp-page="Edit" asp-route-id="@Model.Product.Id">Editar</a>

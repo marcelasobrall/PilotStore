@@ -23,6 +23,9 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+var context = new PilotStoreDbContext();
+context.Database.Migrate();
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 

@@ -7,18 +7,20 @@ namespace PilotStore_.Pages
 {
     public class DetailsModel : PageModel
     {
-        private IProductService _service;  // Update to IProductService
+        private IProductService _service;
 
-        public DetailsModel(IProductService productService)  // Update to IProductService
+        public DetailsModel(IProductService productService)
         {
             _service = productService;
         }
 
-        public ProductModel Product { get; private set; }  // Update to ProductModel
+        public ProductModel Product { get; private set; }
+        public Marca Marca { get; private set; }  // Adicione esta linha
 
         public IActionResult OnGet(int id)
         {
-            Product = _service.Obter(id);  // Update to Obter method
+            Product = _service.Obter(id);
+            Marca = _service.ObterTodasAsMarcas().SingleOrDefault(item => item.MarcaId == Product.MarcaId);
 
             if (Product == null)
             {

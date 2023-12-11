@@ -25,6 +25,7 @@ namespace PilotStore_.Models
         [Display(Name = "Imagem do Produto")]
         public string ImagePath { get; set; }
 
+        [Display(Name = "Marca")]
         public int? MarcaId { get; set; }
 
         public string GenerateSlug()
