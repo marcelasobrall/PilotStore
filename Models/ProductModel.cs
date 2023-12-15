@@ -16,7 +16,10 @@ namespace PilotStore_.Models
         public bool IsActive { get; set; }
 
         [Range(0.01, double.MaxValue, ErrorMessage = "O preço deve ser maior que zero.")]
+        [DisplayFormat(DataFormatString = "{0:C2}")]
         public double Price { get; set; }
+
+
 
         [Display(Name = "Data de Lançamento")]
         [DataType(DataType.Date)]

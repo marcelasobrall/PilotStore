@@ -16,6 +16,34 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Marce\Downloads\Marcela_Sobral_Rodrigues_Desenvolvimento_Web_Com_.NET_E_Bases_De_Dados_TP3-TESTE\PilotStore-TP3\PilotStore-
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Marce/Downloads/Marcela_Sobral_Rodrigues_Desenvolvimento_Web_Com_.NET_E_Bases_De_Dados_TP3-TESTE/PilotStore-TP3/PilotStore-/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marce/Downloads/Marcela_Sobral_Rodrigues_Desenvolvimento_Web_Com_.NET_E_Bases_De_Dados_TP3-TESTE/PilotStore-TP3/PilotStore-/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marce/Downloads/Marcela_Sobral_Rodrigues_Desenvolvimento_Web_Com_.NET_E_Bases_De_Dados_TP3-TESTE/PilotStore-TP3/PilotStore-/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marce/Downloads/Marcela_Sobral_Rodrigues_Desenvolvimento_Web_Com_.NET_E_Bases_De_Dados_TP3-TESTE/PilotStore-TP3/PilotStore-/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marce/Downloads/Marcela_Sobral_Rodrigues_Desenvolvimento_Web_Com_.NET_E_Bases_De_Dados_TP3-TESTE/PilotStore-TP3/PilotStore-/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marce/Downloads/Marcela_Sobral_Rodrigues_Desenvolvimento_Web_Com_.NET_E_Bases_De_Dados_TP3-TESTE/PilotStore-TP3/PilotStore-/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marce/Downloads/Marcela_Sobral_Rodrigues_Desenvolvimento_Web_Com_.NET_E_Bases_De_Dados_TP3-TESTE/PilotStore-TP3/PilotStore-/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Marce/Downloads/Marcela_Sobral_Rodrigues_Desenvolvimento_Web_Com_.NET_E_Bases_De_Dados_TP3-TESTE/PilotStore-TP3/PilotStore-/Pages/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -36,12 +64,36 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Marce/Downloads/Marcela_Sobral_Rodrigues_Desenvolvimento_Web_Com_.NET_E_Bases_De_Dados_TP3-TESTE/PilotStore-TP3/PilotStore-/Pages/Marcas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFyY2FzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marce/Downloads/Marcela_Sobral_Rodrigues_Desenvolvimento_Web_Com_.NET_E_Bases_De_Dados_TP3-TESTE/PilotStore-TP3/PilotStore-/Pages/Marcas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFyY2FzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marce/Downloads/Marcela_Sobral_Rodrigues_Desenvolvimento_Web_Com_.NET_E_Bases_De_Dados_TP3-TESTE/PilotStore-TP3/PilotStore-/Pages/Marcas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFyY2FzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marce/Downloads/Marcela_Sobral_Rodrigues_Desenvolvimento_Web_Com_.NET_E_Bases_De_Dados_TP3-TESTE/PilotStore-TP3/PilotStore-/Pages/Marcas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFyY2FzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marce/Downloads/Marcela_Sobral_Rodrigues_Desenvolvimento_Web_Com_.NET_E_Bases_De_Dados_TP3-TESTE/PilotStore-TP3/PilotStore-/Pages/Marcas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFyY2FzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Marce/Downloads/Marcela_Sobral_Rodrigues_Desenvolvimento_Web_Com_.NET_E_Bases_De_Dados_TP3-TESTE/PilotStore-TP3/PilotStore-/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Marce/Downloads/Marcela_Sobral_Rodrigues_Desenvolvimento_Web_Com_.NET_E_Bases_De_Dados_TP3-TESTE/PilotStore-TP3/PilotStore-/Pages/QuemSomos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVlbVNvbW9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marce/Downloads/Marcela_Sobral_Rodrigues_Desenvolvimento_Web_Com_.NET_E_Bases_De_Dados_TP3-TESTE/PilotStore-TP3/PilotStore-/Pages/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Marce/Downloads/Marcela_Sobral_Rodrigues_Desenvolvimento_Web_Com_.NET_E_Bases_De_Dados_TP3-TESTE/PilotStore-TP3/PilotStore-/Pages/Shared/_ValidationScriptsPartial.cshtml]

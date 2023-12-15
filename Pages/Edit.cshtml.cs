@@ -3,9 +3,11 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using PilotStore_.Models;
 using PilotStore_.Services;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.AspNetCore.Authorization;
 
 namespace PilotStore_.Pages
 {
+    [Authorize]
     public class EditModel : PageModel
     {
         private IProductService _service;

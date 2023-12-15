@@ -5,6 +5,6 @@
         public int MarcaId { get; set; }
         public string Descricao { get; set; }
 
-        public ICollection<ProductModel> Products { get; set; }
+        public ICollection<ProductModel>? Products { get; set; }
     }
 }

@@ -35,7 +35,11 @@
 
             </dl>
 
-            <a class="btn btn-primary mt-3" asp-page="Edit" asp-route-id="@Model.Product.Id">Editar</a>
+            @if (User.Identity.IsAuthenticated)
+            {
+                <a class="btn btn-primary mt-3" asp-page="Edit" asp-route-id="@Model.Product.Id">Editar</a>
+            }
+
         </div>
     </div>
 </div>

@@ -1,0 +1,32 @@
+﻿@page
+@model PilotStore_.Pages.Marcas.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <h1>Detalhes</h1>
+
+    <div>
+        <h4>Marca</h4>
+        <hr />
+
+        <dl class="row">
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Marca.Descricao)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Marca.Descricao)
+            </dd>
+        </dl>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <a asp-page="./Edit" asp-route-id="@Model.Marca?.MarcaId" class="btn btn-warning">Editar</a> |
+            <a asp-page="./Index" class="btn btn-secondary">Voltar para a Lista</a>
+        </div>
+    </div>
+</div>

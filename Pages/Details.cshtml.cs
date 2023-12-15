@@ -15,7 +15,7 @@ namespace PilotStore_.Pages
         }
 
         public ProductModel Product { get; private set; }
-        public Marca Marca { get; private set; }  // Adicione esta linha
+        public Marca Marca { get; private set; }
 
         public IActionResult OnGet(int id)
         {
@@ -31,4 +31,3 @@ namespace PilotStore_.Pages
         }
     }
 }
-

@@ -23,7 +23,7 @@ namespace PilotStore_.Services.Memory
                     Id = 1,
                     Name = "Camisa",
                     Description = "Camisa Pilotos",
-                    Price = 279.90,
+                    Price = 279,
                     ReleaseDate = DateTime.Parse("2023-01-15"),
                     ImagePath = "/images/product1-camisa.png",
                     IsActive = true
@@ -33,7 +33,7 @@ namespace PilotStore_.Services.Memory
                     Id = 2,
                     Name = "Computador de Voo",
                     Description = "Para prova da ANAC",
-                    Price = 150.90,
+                    Price = 210,
                     ReleaseDate = DateTime.Parse("2023-02-20"),
                     ImagePath = "/images/product2-computador-voo.png",
                     IsActive = true
@@ -43,7 +43,7 @@ namespace PilotStore_.Services.Memory
                     Id = 3,
                     Name = "Chaveiro",
                     Description = "Chaveiro retire antes de voar",
-                    Price =  40.00,
+                    Price =  40,
                     ReleaseDate = DateTime.Parse("2023-03-25"),
                     ImagePath = "/images/product3-chaveiro.png",
                     IsActive = false
@@ -53,7 +53,7 @@ namespace PilotStore_.Services.Memory
                     Id = 4,
                     Name = "Quepe",
                     Description = "Quepe para pilotos",
-                    Price = 220.90,
+                    Price = 220,
                     ReleaseDate = DateTime.Parse("2023-03-25"),
                     ImagePath = "/images/product4-quepe.png",
                     IsActive = true
@@ -63,7 +63,7 @@ namespace PilotStore_.Services.Memory
                     Id = 5,
                     Name = "Par Berimbelas",
                     Description = "Berimbelas pretas básicas",
-                    Price = 39.90,
+                    Price = 39,
                     ReleaseDate = DateTime.Parse("2023-03-25"),
                     ImagePath = "/images/product5-par-berimbelas.png",
                     IsActive = true
@@ -73,7 +73,7 @@ namespace PilotStore_.Services.Memory
                     Id = 6,
                     Name = "Brevê Aviação",
                     Description = "Brasão da República",
-                    Price = 39.99,
+                    Price = 39,
                     ReleaseDate = DateTime.Parse("2023-03-25"),
                     ImagePath = "/images/product6-breve-aviacao.png",
                     IsActive = false

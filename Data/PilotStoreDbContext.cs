@@ -1,11 +1,12 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using PilotStore_.Models;
 using System.IO;
 
 namespace PilotStore_.Data
 {
-    public class PilotStoreDbContext : DbContext
+    public class PilotStoreDbContext : IdentityDbContext
     {
         public DbSet<ProductModel> Products { get; set; }
         public DbSet<Marca> Marca { get; set; }

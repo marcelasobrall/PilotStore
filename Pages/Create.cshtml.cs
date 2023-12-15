@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -6,6 +7,7 @@ using PilotStore_.Services;
 
 namespace PilotStore_.Pages
 {
+    [Authorize]
     public class CreateModel : PageModel
     {
         private IProductService _service;
@@ -22,7 +24,6 @@ namespace PilotStore_.Pages
             MarcaOptionItems = new SelectList(_service.ObterTodasAsMarcas(),
                 nameof(Marca.MarcaId),
                 nameof(Marca.Descricao));
- 
         }
 
         [BindProperty]
@@ -41,4 +42,3 @@ namespace PilotStore_.Pages
         }
     }
 }
-
